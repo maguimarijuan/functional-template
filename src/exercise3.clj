@@ -7,5 +7,3 @@
     x
     (+ (fibonacci (dec x)) (fibonacci (dec (dec x)))))
 )
-
-
