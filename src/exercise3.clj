@@ -3,9 +3,9 @@
 (defn fibonacci
   "Calculates the fibonacci result fo the given input value."
   [x]
-  (throw (Exception. "Not implemented."))
+  (if(< x 2)
+    x
+    (+ (fibonacci (dec x)) (fibonacci (dec (dec x)))))
 )
-
-
 
 

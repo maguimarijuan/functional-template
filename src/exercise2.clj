@@ -15,4 +15,3 @@
   [x]
   (only-greater-than-five-recursive x (dec (count x)) ())
 )
-
